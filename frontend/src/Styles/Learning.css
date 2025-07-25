@@ -1,0 +1,81 @@
+/* Learning.css - Light theme for Learning page */
+
+/* General container */
+.learning-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f4f8; /* Light blue-gray background */
+}
+
+/* Greeting */
+.greeting {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 20px;
+  color: #007bff; /* Soft blue */
+  margin-bottom: 15px;
+}
+
+/* Course cards grid */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Individual course card */
+.course-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Status badge */
+.status-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-completed {
+  background-color: #d4edda; /* Light green */
+  color: #155724;
+}
+
+.status-on-progress {
+  background-color: #fff3cd; /* Light yellow */
+  color: #856404;
+}
+
+.status-not-enrolled {
+  background-color: #e2e3e5; /* Light gray */
+  color: #383d41;
+}

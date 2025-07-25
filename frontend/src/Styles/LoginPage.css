@@ -1,0 +1,91 @@
+/* Login.css - Light theme for Login page */
+
+/* General container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8; /* Light blue-gray */
+}
+
+/* Login card */
+.login-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Section title */
+.section-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Role toggle buttons */
+.role-toggle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.role-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e9ecef;
+  color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.role-btn.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.role-btn:hover {
+  background-color: #d4edda;
+}
+
+/* Form inputs */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Login button */
+.login-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Error message */
+.error-text {
+  color: #dc3545;
+  margin-top: 10px;
+  font-size: 14px;
+}

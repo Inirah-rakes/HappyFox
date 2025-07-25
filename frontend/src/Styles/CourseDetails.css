@@ -1,0 +1,71 @@
+.course-detail-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #f8fafc;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+}
+.section {
+  margin-bottom: 32px;
+  background: #fff;
+  padding: 20px 18px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.next-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+.next-btn:hover {
+  background: #125aa1;
+}
+.mcq-question {
+  margin-bottom: 20px;
+}
+.mcq-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.mcq-option {
+  margin-bottom: 5px;
+}
+.performance-section {
+  background: #e6f7fa;
+}
+.blank-compiler {
+  color: #666;
+  padding: 28px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.suggested-courses {
+  margin-top: 20px;
+}
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.video-card {
+  width: 300px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+}
